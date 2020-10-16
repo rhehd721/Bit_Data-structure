@@ -1,0 +1,2 @@
+C:\Users\bit\Source\Repos\git\Debug\git.exe
+C:\Users\bit\Source\Repos\git\Debug\git.pdb

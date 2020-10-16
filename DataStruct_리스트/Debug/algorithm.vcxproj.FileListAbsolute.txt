@@ -1,0 +1,2 @@
+C:\Users\bit\Source\Repos\algorithm\Debug\algorithm.exe
+C:\Users\bit\Source\Repos\algorithm\Debug\algorithm.pdb
