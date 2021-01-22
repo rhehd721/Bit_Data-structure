@@ -1,30 +1,30 @@
-※ 자료구조 ※
+# 자료구조
 
 <img src="./image/DataStruct.png" width="40%" height="30%" title="TCP vs UDP" ></img>
 
-# 선형구조와 비선형구조의 분류
+## 선형구조와 비선형구조의 분류
 
-1. 선형구조 : 자료들간의 앞뒤 관계가 1:1의 선형관계(열차와 같은 모양)
++ 선형구조 : 자료들간의 앞뒤 관계가 1:1의 선형관계(열차와 같은 모양)
 
-1.1. 선형 리스트(Linear List) : 그냥 리스트라고 생각하면 된다
-1.2. 연결 리스트(Linked List) : 각각의 자료가 다른 공간에 저장되어 있지만 서로 연결되어있다
-  1.2.1. 단일 연결 리스트 ( Singly Linked List ) : next만 연결
-  1.2.2. 이중 연결 리스트 ( Doubly Linked List ) : next와 pre 연결
-  1.2.3. 원형(환형) 연결 리스트 ( Circular Linked List ) : 단일연결에서 마지막과 처음을 연결
-  1.2.4. 이중 원형(환형) 연결 리스트 ( Doubly Circular Linked List ) : 이중연결에서 마지막과 처음을 연결
-1.3. 큐(Queue) : 선입선출
-1.4. 데크(Deque) : 스택 + 큐의 모양으로 양쪽이 뚤려있는 통모양
+  + 선형 리스트(Linear List) : 그냥 리스트라고 생각하면 된다
+  + 연결 리스트(Linked List) : 각각의 자료가 다른 공간에 저장되어 있지만 서로 연결되어있다
+    + 단일 연결 리스트 ( Singly Linked List ) : next만 연결
+    + 이중 연결 리스트 ( Doubly Linked List ) : next와 pre 연결
+    + 원형(환형) 연결 리스트 ( Circular Linked List ) : 단일연결에서 마지막과 처음을 연결
+    + 이중 원형(환형) 연결 리스트 ( Doubly Circular Linked List ) : 이중연결에서 마지막과 처음을 연결
+  + 큐(Queue) : 선입선출
+  + 데크(Deque) : 스택 + 큐의 모양으로 양쪽이 뚤려있는 통모양
 
-2. 비선형구조 : 자료들간의 앞뒤 관계가 1:다 또는 다:다의 관계(포도송이 모양)
+* 비선형구조 : 자료들간의 앞뒤 관계가 1:다 또는 다:다의 관계(포도송이 모양)
 
-2.1. 트리(Tree) : 폴더방식이 트리라고 생각하면 된다
-  2.1.1. 일반트리(Gerneral) : 모든 일반트리는 이진트리로 변환이 가능하다
-  2.1.2. 이진트리(Binary Tree) : 자식노드가 최대 두 개인 노드로 구성된 트리
-    2.1.2.1. 정이진트리(full binary tree) : 모든 노드가 꽉 차있는 트리 (배열로 표현가능)
-    2.1.2.2. 완전이진트리(complete binary tree) : 마지막을 제외하고 모두 차있는 트리 (배열로 표현가능)
-    2.1.2.3. 균형이진트리(balanced binary tree) 
+  * 트리(Tree) : 폴더방식이 트리라고 생각하면 된다
+    * 일반트리(Gerneral) : 모든 일반트리는 이진트리로 변환이 가능하다
+    * 이진트리(Binary Tree) : 자식노드가 최대 두 개인 노드로 구성된 트리
+      * 정이진트리(full binary tree) : 모든 노드가 꽉 차있는 트리 (배열로 표현가능)
+      * 완전이진트리(complete binary tree) : 마지막을 제외하고 모두 차있는 트리 (배열로 표현가능)
+      * 균형이진트리(balanced binary tree) 
 
-2.2. 그래프(Graph)
+  * 그래프(Graph)
 
 
 |정이진트리|완전이진트리|균형이진트리|
@@ -32,7 +32,7 @@
 |<img src="./image/tree1.png" width="40%" height="30%" title="정이진" ></img>|<img src="./image/tree2.png" width="40%" height="30%" title="완전" ></img>|<img src="./image/tree3.png" width="40%" height="30%" title="균형이진" ></img>|
 
 
-# 일반트리 -> 이진트리 변환
+## 일반트리 -> 이진트리 변환
 
 <img src="./image/tree4.png" width="40%" height="30%" title="일반트리 -> 이진트리 변환" ></img>
 
