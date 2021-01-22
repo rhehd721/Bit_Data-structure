@@ -24,13 +24,11 @@
       * 완전이진트리(complete binary tree) : 마지막을 제외하고 모두 차있는 트리 (배열로 표현가능)
       * 균형이진트리(balanced binary tree) 
 
+      |정이진트리|완전이진트리|균형이진트리|
+      |:---:|:---:|:---:|
+      |<img src="./image/tree1.png" width="40%" height="30%" title="정이진" ></img>|<img src="./image/tree2.png" width="40%" height="30%" title="완전" ></img>|<img src="./image/tree3.png" width="40%" height="30%" title="균형이진" ></img>|
+
   * 그래프(Graph)
-
-
-|정이진트리|완전이진트리|균형이진트리|
-|---|---|---|
-|<img src="./image/tree1.png" width="40%" height="30%" title="정이진" ></img>|<img src="./image/tree2.png" width="40%" height="30%" title="완전" ></img>|<img src="./image/tree3.png" width="40%" height="30%" title="균형이진" ></img>|
-
 
 ## 일반트리 -> 이진트리 변환
 
@@ -39,7 +37,7 @@
 1. 임의 노드의 왼쪽 자식은 변환 전 그 노드의 첫 번째 자식이다.(A의 자식 B)
 2. 임의 노드의 오른쪽 자식은 변환 전 그 노드의 형제이다.(B의 형제 C)
 
-# 트리순회(Tree traversal)
+## 트리순회(Tree traversal)
 
 1. 전위순회(preorder) : 루트 노드에서 시작해서 노드-왼쪽 서브트리-오른쪽 서브트리 순으로 순회하는 방식
 2. 중위순회(inorder) : 루트 노드에서 시작해서 왼쪽 서브트리-노드-오른쪽 서브트리 순으로 순회하는 방식
