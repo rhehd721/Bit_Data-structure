@@ -28,7 +28,7 @@
 |---|---|---|
 |<img src="./image/BinaryTree1.png" width="100%" height="100%" title="정이진" ></img>|<img src="./image/BinaryTree2.png" width="100%" height="100%" title="완전" ></img>|<img src="./image/BinaryTree3.png" width="100%" height="100%" title="균형이진" ></img>|
 
-  * 그래프(Graph)
+   * 그래프(Graph)
 
 ---
 
