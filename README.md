@@ -1,6 +1,6 @@
 # 자료구조 
 
-<img src="./image/DataStruct.png" width="80%" height="50%" title="TCP vs UDP"></img>
+<img src="./image/DataStruct.png" width="70%" height="40%" title="TCP vs UDP"></img>
 
 ## 선형구조와 비선형구조의 분류
 
@@ -35,7 +35,7 @@
 
 ## 일반트리 -> 이진트리 변환
 
-<img src="./image/TreeTransformation.png" width="80%" height="50%" title="일반트리 -> 이진트리 변환" ></img>
+<img src="./image/TreeTransformation.png" width="70%" height="40%" title="일반트리 -> 이진트리 변환" ></img>
 
 1. 임의 노드의 왼쪽 자식은 변환 전 그 노드의 첫 번째 자식이다.(A의 자식 B)
 2. 임의 노드의 오른쪽 자식은 변환 전 그 노드의 형제이다.(B의 형제 C)
@@ -64,7 +64,7 @@
 최대값과 최솟값을 빠르게 찾아내도록 만들어진 구조
 부모노드가 자식노드보다 크다.
 
-<img src="./image/Heap.png" width="80%" height="50%" title="일반트리 -> 이진트리 변환" ></img>
+<img src="./image/Heap.png" width="70%" height="40%" title="일반트리 -> 이진트리 변환" ></img>
 
 + heapify : 이진트리를 힙으로 변환시키는 알고리즘
 
@@ -74,14 +74,14 @@
 이진탐색과 연결리스트를 결합한 구조
 왼쪽 자식노드가 가장작고 부모노드가 그 다음으로 크며 오른쪽 자식노드가 가장 큰 값을 가짐
 
-<img src="./image/BinarySearchTree.png" width="80%" height="50%" title="이진탐색트리" ></img>
+<img src="./image/BinarySearchTree.png" width="60%" height="35%" title="이진탐색트리" ></img>
 
 + 이진탐색트리를 순회할땐 중위순회방식을 사용한다(좌 – 상 - 우)
 
 ## 정렬
 [참고 URL](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html)
 
-<img src="./image/TimeComplexity.png" width="80%" height="50%" title="정렬 알고리즘 시간복잡도" ></img>
+<img src="./image/TimeComplexity.png" width="60%" height="35%" title="정렬 알고리즘 시간복잡도" ></img>
 
 1. 선택 정렬 : 주어진 배열에서 최솟값을 찾은 후 그값을 맨 앞값과 교체한다
 2. 삽입 정렬 : 두 번째 자료부터 시작하여 그 앞(왼쪽)의 자료들과 비교하여 삽입할 위치를 지정
@@ -93,4 +93,4 @@
 
 ## 깊이 우선 탐색(DFS) 과 너비 우선 탐색(BFS)
 
-<img src="./image/DFSvsBFS.png" width="80%" height="50%" title="DFS vs BFS" ></img>
+<img src="./image/DFSvsBFS.png" width="70%" height="40%" title="DFS vs BFS" ></img>
