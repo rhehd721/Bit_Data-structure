@@ -23,12 +23,13 @@
       * 정이진트리(full binary tree) : 모든 노드가 꽉 차있는 트리 (배열로 표현가능)
       * 완전이진트리(complete binary tree) : 마지막을 제외하고 모두 차있는 트리 (배열로 표현가능)
       * 균형이진트리(balanced binary tree) 
+   * 그래프(Graph)
 
 |정이진트리|완전이진트리|균형이진트리|
 |---|---|---|
 |<img src="./image/BinaryTree1.png" width="100%" height="100%" title="정이진" ></img>|<img src="./image/BinaryTree2.png" width="100%" height="100%" title="완전" ></img>|<img src="./image/BinaryTree3.png" width="100%" height="100%" title="균형이진" ></img>|
 
-   * 그래프(Graph)
+
 
 ---
 
