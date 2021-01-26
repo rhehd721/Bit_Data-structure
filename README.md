@@ -1,8 +1,8 @@
-※ 자료구조 ※
+# 자료구조 
 
-<img src="./image/DataStruct.png" width="80%" height="50%" title="TCP vs UDP" ></img>
+<img src="./image/DataStruct.png" width="80%" height="50%" title="TCP vs UDP"></img>
 
-# 선형구조와 비선형구조의 분류
+## 선형구조와 비선형구조의 분류
 
 + 선형구조 : 자료들간의 앞뒤 관계가 1:1의 선형관계(열차와 같은 모양)
 
@@ -30,15 +30,16 @@
 
   * 그래프(Graph)
 
+---
 
-# 일반트리 -> 이진트리 변환
+## 일반트리 -> 이진트리 변환
 
 <img src="./image/TreeTransformation.png" width="80%" height="50%" title="일반트리 -> 이진트리 변환" ></img>
 
 1. 임의 노드의 왼쪽 자식은 변환 전 그 노드의 첫 번째 자식이다.(A의 자식 B)
 2. 임의 노드의 오른쪽 자식은 변환 전 그 노드의 형제이다.(B의 형제 C)
 
-# 트리순회(Tree traversal)
+## 트리순회(Tree traversal)
 
 1. 전위순회(preorder) : 루트 노드에서 시작해서 노드-왼쪽 서브트리-오른쪽 서브트리 순으로 순회하는 방식
 2. 중위순회(inorder) : 루트 노드에서 시작해서 왼쪽 서브트리-노드-오른쪽 서브트리 순으로 순회하는 방식
@@ -86,6 +87,6 @@
 6. 퀵 정렬 : 피벗을 기준으로 피벗보다 작은 요소들은 모두 피벗의 왼쪽으로 옮겨지고 피벗보다 큰 요소들은 모두 피벗의 오른쪽으로 옮겨진다.
 
 
-※ 깊이 우선 탐색(DFS) 과 너비 우선 탐색(BFS) ※
+## 깊이 우선 탐색(DFS) 과 너비 우선 탐색(BFS)
 
 <img src="./image/DFSvsBFS.png" width="80%" height="50%" title="DFS vs BFS" ></img>
