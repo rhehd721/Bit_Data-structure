@@ -45,20 +45,21 @@
 2. 중위순회(inorder) : 루트 노드에서 시작해서 왼쪽 서브트리-노드-오른쪽 서브트리 순으로 순회하는 방식
 3. 후위순회(postorder) : 루트 노드에서 시작해서 왼쪽 서브트리-오른쪽 서브트리-노드 순으로 순회하는 방식
 
-※ 탐색 알고리즘 (Search algorithm) ※
+## 탐색 알고리즘 (Search algorithm)
 1. 선형탐색 : 왼쪽에서 오른쪽으로 찾아가는 단순 탐색방법
 2. 이진탐색 : 데이터를 정렬한뒤 가운데 번호를 뽑아 비교
 3. 해시탐색 : 자료에 특정 힌트를 딕셔너리(Key_Value)처럼 넣어두어 방대한 자료에서 선택의 폭을 줄인뒤 탐색
 
-※ 완전탐색 ※
+## 완전탐색 
 1. Brute Force : for문과 if문을 이용하여 처음부터 끝까지 탐색하는 방법
 2. 비트 마스크 : 이진수 표현을 자료구조로 쓰는 기법 (AND, OR, XOR, SHIFT, NOT)
 3. 재귀 함수
 4. 순열 : 서로 다른 n개의 원소에서 r개의 중복을 허용하지 않고 순서대로 늘어 놓은 수
 5. BFS(너비우선탐색), DFS(깊이우선탐색)
 
+## 힙(Heap)
+[참고 URL](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/)
 
-※ [힙(Heap)](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/) ※
 최대값과 최솟값을 빠르게 찾아내도록 만들어진 구조
 부모노드가 자식노드보다 크다.
 
@@ -66,8 +67,9 @@
 
 + heapify : 이진트리를 힙으로 변환시키는 알고리즘
 
+## 이진탐색 트리(Binary Search Tree)
+[참고 URL](https://ratsgo.github.io/data%20structure&algorithm/2017/10/22/bst/)
 
-※ [이진탐색 트리(Binary Search Tree)](https://ratsgo.github.io/data%20structure&algorithm/2017/10/22/bst/) ※
 이진탐색과 연결리스트를 결합한 구조
 왼쪽 자식노드가 가장작고 부모노드가 그 다음으로 크며 오른쪽 자식노드가 가장 큰 값을 가짐
 
@@ -75,7 +77,8 @@
 
 + 이진탐색트리를 순회할땐 중위순회방식을 사용한다(좌 – 상 - 우)
 
-※ [정렬](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html) ※
+## 정렬
+[참고 URL](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html)
 
 <img src="./image/TimeComplexity.png" width="80%" height="50%" title="정렬 알고리즘 시간복잡도" ></img>
 
